@@ -2,6 +2,7 @@ import './App.css'
 import Hero from './component/Hero/Hero'
 import NavBar from './component/NavBar/NavBar'
 import Status from './component/Status'
+import Steps from './component/Steps'
 
 function App() {
 
@@ -15,8 +16,10 @@ function App() {
         <Hero></Hero>
 
       </header>
-      <main>
+      <main className='max-w-400 mx-auto'>
         <Status></Status>
+
+        <Steps></Steps>
 
       </main>
     </>
