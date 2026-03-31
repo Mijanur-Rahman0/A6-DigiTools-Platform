@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './component/Hero/Hero'
 import NavBar from './component/NavBar/NavBar'
+import Status from './component/Status'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
       </header>
       <main>
+        <Status></Status>
 
       </main>
     </>
