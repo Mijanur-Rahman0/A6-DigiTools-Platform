@@ -11,7 +11,7 @@ function App() {
         <nav>
           <NavBar></NavBar>
         </nav>
-        
+        <Hero></Hero>
 
       </header>
       <main>
