@@ -27,7 +27,7 @@ const cards = [
 
 const Steps = () => {
   return (
-    <div className="text-black max-w-300 mx-auto">
+    <div className="text-black max-w-300 mx-auto mb-20">
       <div className="mb-10 text-center">
         <h2 className="font-extrabold text-3xl md:text-5xl mb-4">Get Started in 3 Steps</h2>
         <p className="text-[#627382]">

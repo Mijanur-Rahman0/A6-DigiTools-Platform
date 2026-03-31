@@ -11,7 +11,7 @@ const navLists = [
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-white text-black shadow-sm">
+    <div className="navbar bg-white text-black shadow-sm mb-15">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

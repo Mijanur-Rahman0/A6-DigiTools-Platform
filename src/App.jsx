@@ -1,11 +1,15 @@
+import axios from 'axios'
 import './App.css'
 import Hero from './component/Hero/Hero'
 import NavBar from './component/NavBar/NavBar'
+import PricingCards from './component/PricingCards/PricingCards'
 import Status from './component/Status'
 import Steps from './component/Steps'
 
-function App() {
+const pricingPromise =axios.get('pricingData.json');
 
+
+function App() {
 
   return (
     <>
@@ -20,6 +24,7 @@ function App() {
         <Status></Status>
 
         <Steps></Steps>
+        <PricingCards pricingPromise={pricingPromise}></PricingCards>
 
       </main>
     </>
