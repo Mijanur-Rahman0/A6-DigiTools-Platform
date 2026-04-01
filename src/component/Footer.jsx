@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-neutral text-base-content">
-      <div className="footer sm:footer-horizontal bg-neutral text-neutral-content p-20">
+      <div className=" max-w-7xl mx-auto footer sm:footer-horizontal bg-neutral text-neutral-content p-20">
         <nav className="">
           <h1 className="text-4xl font-bold mb-2">DigiTools</h1>
           <p>
@@ -58,7 +58,7 @@ const Footer = () => {
         </nav>
       </div>
 
-      <div className="bg-neutral max-w-350 mx-auto">
+      <div className="bg-neutral max-w-300 mx-auto">
         <div className="flex justify-between gap-10  bg-neutral text-base-content p-4">
           <aside>
             <p>
