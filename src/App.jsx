@@ -5,6 +5,7 @@ import NavBar from './component/NavBar/NavBar'
 import PricingCards from './component/PricingCards/PricingCards'
 import Status from './component/Status'
 import Steps from './component/Steps'
+import FreeTrial from './component/FreeTrial'
 
 const pricingPromise =axios.get('pricingData.json');
 
@@ -25,6 +26,8 @@ function App() {
 
         <Steps></Steps>
         <PricingCards pricingPromise={pricingPromise}></PricingCards>
+
+        <FreeTrial></FreeTrial>
 
       </main>
     </>
